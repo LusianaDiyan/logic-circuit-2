@@ -1,0 +1,5 @@
+set -tmpdir "D:/Semester 2/Prak. Rangkaian Logika 2/binertobcd/xst/projnav.tmp"
+set -xsthdpdir "D:/Semester 2/Prak. Rangkaian Logika 2/binertobcd/xst"
+elaborate
+-ifn biner2bcd.prj
+-ifmt mixed

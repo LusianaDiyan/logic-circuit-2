@@ -1,0 +1,47 @@
+V3 31
+FL "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" 2019/05/27.08:58:28 P.20131013
+EN work/clockdiv48and190 1558938220 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clockdiv48and190/Behavioral 1558938221 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" \
+      EN work/clockdiv48and190 1558938220
+FL "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" 2019/05/27.13:23:27 P.20131013
+EN work/display 1558938222 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/display/Behavioral 1558938223 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" \
+      EN work/display 1558938222
+FL "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" 2019/05/27.13:02:38 P.20131013
+EN work/stopwat 1558938224 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/stopwat/Behavioral 1558938225 \
+      FL "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" \
+      EN work/stopwat 1558938224 CP clockdiv48and190 CP display
+FL D:/demo/pro/stopwatch/stop/clockdiv48and190.vhd 2019/05/27.08:58:28 P.20131013
+FL D:/demo/pro/stopwatch/stop/display.vhd 2019/05/20.14:17:30 P.20131013
+FL D:/demo/pro/stopwatch/stop/stopwat.vhd 2019/05/27.09:00:06 P.20131013
+FL D:/stopwatch/stop/clockdiv.vhd 2019/05/20.14:40:12 P.20131013
+EN work/clockdiv 1560135985 FL D:/stopwatch/stop/clockdiv.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/clockdiv/Behavioral 1560135986 \
+      FL D:/stopwatch/stop/clockdiv.vhd EN work/clockdiv 1560135985
+FL E:/demo/pro/stopwatch/stop/bounce.vhd 2019/05/27.09:33:40 P.20131013
+EN work/DeBounce 1558926477 FL E:/demo/pro/stopwatch/stop/bounce.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DeBounce/behav 1558926478 \
+      FL E:/demo/pro/stopwatch/stop/bounce.vhd EN work/DeBounce 1558926477
+FL E:/demo/pro/stopwatch/stop/clockdiv48and190.vhd 2019/05/27.08:58:28 P.20131013
+FL E:/demo/pro/stopwatch/stop/display.vhd 2019/05/27.10:07:42 P.20131013
+FL E:/demo/pro/stopwatch/stop/stopwat.vhd 2019/05/27.09:47:44 P.20131013
+FL "E:/PRAKTIKUM 1TK A/stop/clockdiv.vhd" 2019/05/13.14:35:50 P.20131013
+FL "E:/PRAKTIKUM 1TK A/stop/display.vhd" 2019/05/13.15:03:13 P.20131013
+FL "E:/TUGAS/ISE Project/stopwatch/stop/clockdiv.vhd" 2019/05/20.14:40:11 P.20131013
+FL "E:/TUGAS/ISE Project/stopwatch/stop/display.vhd" 2019/05/20.14:17:29 P.20131013
+FL "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.vhd" 2019/05/18.23:53:14 P.20131013
+FL E:/Tugas/Kuliah/Logika/stop/clockdiv.vhd 2019/05/13.14:35:50 P.20131013
+FL E:/Tugas/Kuliah/Logika/stop/display.vhd 2019/05/20.09:54:14 P.20131013
+FL E:/Tugas/Kuliah/Logika/stop/stopwat.vhd 2019/05/18.23:53:12 P.20131013

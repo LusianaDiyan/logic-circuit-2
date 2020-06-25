@@ -1,0 +1,4 @@
+vhdl work "D:\PENS\Semester 2\Prak. Rangkaian Logika 2\TrafficLight\SevenSegment.vhd"
+vhdl work "D:\PENS\Semester 2\Prak. Rangkaian Logika 2\TrafficLight\LightControl.vhd"
+vhdl work "D:\PENS\Semester 2\Prak. Rangkaian Logika 2\TrafficLight\ClockDevider.vhd"
+vhdl work "D:\PENS\Semester 2\Prak. Rangkaian Logika 2\TrafficLight\TopModule.vhd"

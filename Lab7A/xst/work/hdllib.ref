@@ -1,0 +1,5 @@
+EN hex7segb NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7segb.vhd" sub00/vhpl03 1557686025
+EN hex7seg NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg.vhd" sub00/vhpl00 1557686147
+EN hex7seg_top NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg_top.vhd" sub00/vhpl02 1557686149
+AR hex7segb behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7segb.vhd" sub00/vhpl04 1557686026
+AR hex7seg hex7seg_le "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg.vhd" sub00/vhpl01 1557686148

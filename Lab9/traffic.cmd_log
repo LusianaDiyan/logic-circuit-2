@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab9/traffic.xst" -ofn "C:/Xilinx/Lab9/traffic.syr" 

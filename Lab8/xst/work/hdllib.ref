@@ -1,0 +1,10 @@
+AR binbcd14 behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/binBCD14.vhd" sub00/vhpl03 1558060302
+EN mod10kcnt_top NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10Kcnt_top.vhd" sub00/vhpl06 1558060305
+AR mod10kcnt behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10kcnt.vhd" sub00/vhpl01 1558060300
+AR clkdiv behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/clkdiv.vhd" sub00/vhpl09 1558060298
+AR mod10kcnt_top behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10Kcnt_top.vhd" sub00/vhpl07 1558060306
+EN mod10kcnt NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10kcnt.vhd" sub00/vhpl00 1558060299
+EN clkdiv NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/clkdiv.vhd" sub00/vhpl08 1558060297
+EN binbcd14 NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/binBCD14.vhd" sub00/vhpl02 1558060301
+AR x7segbc behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/x7segbc.vhd" sub00/vhpl05 1558060304
+EN x7segbc NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/x7segbc.vhd" sub00/vhpl04 1558060303

@@ -1,0 +1,10 @@
+EN display NULL "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" sub00/vhpl02 1558938222
+AR stopwat behavioral "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" sub00/vhpl05 1558938225
+AR display behavioral "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" sub00/vhpl03 1558938223
+EN clockdiv48and190 NULL "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" sub00/vhpl06 1558938220
+AR clockdiv48and190 behavioral "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" sub00/vhpl07 1558938221
+EN debounce NULL E:/demo/pro/stopwatch/stop/bounce.vhd sub00/vhpl08 1558926477
+EN clockdiv NULL D:/stopwatch/stop/clockdiv.vhd sub00/vhpl00 1560135985
+AR clockdiv behavioral D:/stopwatch/stop/clockdiv.vhd sub00/vhpl01 1560135986
+AR debounce behav E:/demo/pro/stopwatch/stop/bounce.vhd sub00/vhpl09 1558926478
+EN stopwat NULL "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" sub00/vhpl04 1558938224

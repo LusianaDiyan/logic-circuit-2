@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_6/prio_encoder.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_6/prio_encoder.syr" 

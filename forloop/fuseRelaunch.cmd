@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Semester 2/Prak. Rangkaian Logika 2/forloop/tugas4_tb_isim_beh.exe" -prj "D:/Semester 2/Prak. Rangkaian Logika 2/forloop/tugas4_tb_beh.prj" "work.tugas4_tb" 

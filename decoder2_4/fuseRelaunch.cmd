@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Semester 2/Prak. Rangkaian Logika 2/decoder2_4/decoder_tb_isim_beh.exe" -prj "D:/Semester 2/Prak. Rangkaian Logika 2/decoder2_4/decoder_tb_beh.prj" "work.decoder_tb" 

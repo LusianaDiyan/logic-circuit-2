@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.syr" 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.syr" 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.syr" 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "demux1to4.ngc" demux1to4.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o demux1to4_map.ncd demux1to4.ngd demux1to4.pcf 
+par -w -intstyle ise -ol high -t 1 demux1to4_map.ncd demux1to4.ncd demux1to4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml demux1to4.twx demux1to4.ncd -o demux1to4.twr demux1to4.pcf 
+bitgen -intstyle ise -f demux1to4.ut demux1to4.ncd 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux1to4.syr" 

@@ -1,0 +1,2 @@
+vhdl work "biner2bcd.vhd"
+vhdl work "bin2bcd_tb.vhd"

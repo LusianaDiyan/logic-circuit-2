@@ -1,0 +1,5 @@
+set -tmpdir "E:/Tugas/Kuliah/Logika/stop/xst/projnav.tmp"
+set -xsthdpdir "E:/Tugas/Kuliah/Logika/stop/xst"
+elaborate
+-ifn display.prj
+-ifmt mixed

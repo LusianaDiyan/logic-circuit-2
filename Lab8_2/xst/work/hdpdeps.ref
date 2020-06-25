@@ -1,0 +1,54 @@
+V3 29
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/binbcd14.vhd 2019/05/16.22:27:12 P.20131013
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/clkdiv.vhd 2019/05/16.23:26:39 P.20131013
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/clockdiv.vhd 2019/05/15.08:24:07 P.20131013
+EN work/clockdev 1558018604 \
+      FL C:/Users/Wafiq/Documents/xilink/countermod10k/clockdiv.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clockdev/Behavioral 1558018605 \
+      FL C:/Users/Wafiq/Documents/xilink/countermod10k/clockdiv.vhd \
+      EN work/clockdev 1558018604
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kcnt.vhd 2019/05/16.22:16:08 P.20131013
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kctr_top.vhd 2019/05/16.23:13:57 P.20131013
+EN work/mod10kctr_top 1558024012 \
+      FL C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kctr_top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mod10kctr_top/Behavioral 1558024013 \
+      FL C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kctr_top.vhd \
+      EN work/mod10kctr_top 1558024012 CP clkdiv CP mod10kcnt CP binbcd14 CP x7segbc
+FL C:/Users/Wafiq/Documents/xilink/countermod10k/x7segbc.vhd 2019/05/16.22:19:10 P.20131013
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/binbcd14.vhd" 2019/05/17.09:41:54 P.20131013
+EN work/binbcd14 1558061159 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/binbcd14.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binbcd14/Behavioral 1558061160 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/binbcd14.vhd" \
+      EN work/binbcd14 1558061159
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/clkdiv.vhd" 2019/05/17.09:45:49 P.20131013
+EN work/clkdiv 1558061155 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/clkdiv.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clkdiv/Behavioral 1558061156 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/clkdiv.vhd" \
+      EN work/clkdiv 1558061155
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kcnt.vhd" 2019/05/17.09:21:47 P.20131013
+EN work/mod10kcnt 1558061157 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kcnt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mod10kcnt/Behavioral 1558061158 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kcnt.vhd" \
+      EN work/mod10kcnt 1558061157
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kctr_top.vhd" 2019/05/17.09:21:10 P.20131013
+EN work/mod10Kcnt_top 1558061163 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kctr_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mod10Kcnt_top/Behavioral 1558061164 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kctr_top.vhd" \
+      EN work/mod10Kcnt_top 1558061163 CP clkdiv CP mod10kcnt CP binbcd14 CP x7segbc
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/x7segbc.vhd" 2019/05/17.09:21:47 P.20131013
+EN work/x7segbc 1558061161 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/x7segbc.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/x7segbc/Behavioral 1558061162 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/x7segbc.vhd" \
+      EN work/x7segbc 1558061161

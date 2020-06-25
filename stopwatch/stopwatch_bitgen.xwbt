@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\2210181060\stopwatch\stopwatch.ncd
+OUTFILE=F:\2210181060\stopwatch\stopwatch.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=F:\2210181060\stopwatch
+LICENSE=WebPack
+USER_INFO=211653567_0_0_918

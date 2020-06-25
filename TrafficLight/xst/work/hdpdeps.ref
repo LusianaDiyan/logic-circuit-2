@@ -1,0 +1,33 @@
+V3 19
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/ClockDevider.vhd" 2019/05/22.13:33:13 P.20131013
+EN work/ClockDevider 1560135822 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/ClockDevider.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/ClockDevider/Behavioral 1560135823 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/ClockDevider.vhd" \
+      EN work/ClockDevider 1560135822
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/LightControl.vhd" 2018/06/26.08:55:14 P.20131013
+EN work/LightControl 1528366181 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/LightControl.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/LightControl/Behavioral 1528366182 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/LightControl.vhd" \
+      EN work/LightControl 1528366181
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/SevenSegment.vhd" 2018/06/07.01:55:24 P.20131013
+EN work/SevenSegment 1528366183 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/SevenSegment.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/SevenSegment/Behavioral 1528366184 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/SevenSegment.vhd" \
+      EN work/SevenSegment 1528366183
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/TopModule.vhd" 2018/06/26.08:37:18 P.20131013
+EN work/TopModule 1528366185 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/TopModule.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/TopModule/Behavioral 1528366186 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/TopModule.vhd" \
+      EN work/TopModule 1528366185 CP ClockDevider CP LightControl CP SevenSegment
+FL E:/2210171003/TrafficLight/ClockDevider.vhd 2018/06/07.17:09:27 P.20131013
+FL E:/2210171003/TrafficLight/LightControl.vhd 2018/06/07.15:56:14 P.20131013
+FL E:/2210171003/TrafficLight/SevenSegment.vhd 2018/06/07.15:55:22 P.20131013
+FL E:/2210171003/TrafficLight/TopModule.vhd 2018/06/07.15:14:21 P.20131013

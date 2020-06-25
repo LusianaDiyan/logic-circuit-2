@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "try4.ngc" try4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o try4_map.ncd try4.ngd try4.pcf 
+par -w -intstyle ise -ol high -mt off try4_map.ncd try4.ncd try4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml try4.twx try4.ncd -o try4.twr try4.pcf 
+bitgen -intstyle ise -f try4.ut try4.ncd 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "try4.ngc" try4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o try4_map.ncd try4.ngd try4.pcf 
+par -w -intstyle ise -ol high -mt off try4_map.ncd try4.ncd try4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml try4.twx try4.ncd -o try4.twr try4.pcf 
+bitgen -intstyle ise -f try4.ut try4.ncd 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "try4.ngc" try4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o try4_map.ncd try4.ngd try4.pcf 
+par -w -intstyle ise -ol high -mt off try4_map.ncd try4.ncd try4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml try4.twx try4.ncd -o try4.twr try4.pcf 
+bitgen -intstyle ise -f try4.ut try4.ncd 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas4/try4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "try4.ngc" try4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o try4_map.ncd try4.ngd try4.pcf 
+par -w -intstyle ise -ol high -mt off try4_map.ncd try4.ncd try4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml try4.twx try4.ncd -o try4.twr try4.pcf 
+bitgen -intstyle ise -f try4.ut try4.ncd 

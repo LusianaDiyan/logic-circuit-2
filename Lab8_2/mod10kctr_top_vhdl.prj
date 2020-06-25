@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Wafiq\Documents\xilink\countermod10k\x7segbc.vhd"
+vhdl work "C:\Users\Wafiq\Documents\xilink\countermod10k\mod10kcnt.vhd"
+vhdl work "C:\Users\Wafiq\Documents\xilink\countermod10k\clkdiv.vhd"
+vhdl work "C:\Users\Wafiq\Documents\xilink\countermod10k\binbcd14.vhd"
+vhdl work "C:\Users\Wafiq\Documents\xilink\countermod10k\mod10kctr_top.vhd"

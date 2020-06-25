@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/hexto7seg/hex.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/hexto7seg/hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "hex.ngc" hex.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o hex_map.ncd hex.ngd hex.pcf 
+par -w -intstyle ise -ol high -t 1 hex_map.ncd hex.ncd hex.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hex.twx hex.ncd -o hex.twr hex.pcf 
+bitgen -intstyle ise -f hex.ut hex.ncd 

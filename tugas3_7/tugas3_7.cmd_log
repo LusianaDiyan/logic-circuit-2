@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_7/tugas3_7.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_7/tugas3_7.syr" 
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_7/tugas3_7.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/tugas3_7/tugas3_7.syr" 

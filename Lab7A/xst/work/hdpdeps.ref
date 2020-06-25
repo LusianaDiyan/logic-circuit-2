@@ -1,0 +1,22 @@
+V3 10
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg.vhd" 2019/05/13.01:35:41 P.20131013
+EN work/hex7seg 1557686147 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex7seg/hex7seg_le 1557686148 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg.vhd" \
+      EN work/hex7seg 1557686147
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7segb.vhd" 2019/05/13.01:33:42 P.20131013
+EN work/hex7segb 1557686025 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7segb.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex7segb/Behavioral 1557686026 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7segb.vhd" \
+      EN work/hex7segb 1557686025
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg_top.vhd" 2019/05/13.01:22:48 P.20131013
+EN work/hex7seg_top 0 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex7seg_top/Behavioral 0 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/hex7seg_top.vhd" \
+      EN work/hex7seg_top 0 CP hex7seg

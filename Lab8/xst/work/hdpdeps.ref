@@ -1,0 +1,36 @@
+V3 19
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/binBCD14.vhd" 2019/05/15.14:56:40 P.20131013
+EN work/binBCD14 1558060301 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/binBCD14.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binBCD14/Behavioral 1558060302 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/binBCD14.vhd" \
+      EN work/binBCD14 1558060301
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/clkdiv.vhd" 2019/05/17.08:49:31 P.20131013
+EN work/clkdiv 1558060297 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/clkdiv.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clkdiv/Behavioral 1558060298 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/clkdiv.vhd" \
+      EN work/clkdiv 1558060297
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10kcnt.vhd" 2019/05/15.14:50:03 P.20131013
+EN work/mod10kcnt 1558060299 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10kcnt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mod10kcnt/Behavioral 1558060300 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10kcnt.vhd" \
+      EN work/mod10kcnt 1558060299
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10Kcnt_top.vhd" 2019/05/17.08:37:31 P.20131013
+EN work/mod10Kcnt_top 1558060305 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10Kcnt_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mod10Kcnt_top/Behavioral 1558060306 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/mod10Kcnt_top.vhd" \
+      EN work/mod10Kcnt_top 1558060305 CP clkdiv CP mod10kcnt CP binbcd14 CP x7segbc
+FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/x7segbc.vhd" 2019/05/17.08:19:23 P.20131013
+EN work/x7segbc 1558060303 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/x7segbc.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/x7segbc/Behavioral 1558060304 \
+      FL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8/x7segbc.vhd" \
+      EN work/x7segbc 1558060303

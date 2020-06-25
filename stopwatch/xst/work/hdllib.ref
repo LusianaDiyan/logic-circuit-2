@@ -1,0 +1,14 @@
+AR binbcd14 behavioral "D:/PENS/Semester 2/stopwatch/binBCD14.vhd" sub00/vhpl05 1560146467
+EN mod10cnt NULL "D:/PENS/Semester 2/stopwatch/mod10cnt.vhd" sub00/vhpl02 1560146464
+AR stopwatch behavioral "D:/PENS/Semester 2/stopwatch/stopwatch.vhd" sub00/vhpl09 1560146471
+EN clockdiv48and190 NULL "D:/PENS/Semester 2/stopwatch/clockdiv48and190.vhd" sub00/vhpl00 1560146462
+AR clockdiv48and190 behavioral "D:/PENS/Semester 2/stopwatch/clockdiv48and190.vhd" sub00/vhpl01 1560146463
+EN binbcd14 NULL "D:/PENS/Semester 2/stopwatch/binBCD14.vhd" sub00/vhpl04 1560146466
+AR mod10cnt behavioral "D:/PENS/Semester 2/stopwatch/mod10cnt.vhd" sub00/vhpl03 1560146465
+AR x7segbc behavioral "D:/PENS/Semester 2/stopwatch/x7segbc.vhd" sub00/vhpl07 1560146469
+EN x7segbcm NULL E:/2210181014/stopwatch/x7segbcm.vhd sub00/vhpl12 1557734866
+EN binbcd14m NULL E:/2210181014/stopwatch/binBCD14m.vhd sub00/vhpl10 1557734862
+AR binbcd14m behavioral E:/2210181014/stopwatch/binBCD14m.vhd sub00/vhpl11 1557734863
+EN x7segbc NULL "D:/PENS/Semester 2/stopwatch/x7segbc.vhd" sub00/vhpl06 1560146468
+AR x7segbcm behavioral E:/2210181014/stopwatch/x7segbcm.vhd sub00/vhpl13 1557734867
+EN stopwatch NULL "D:/PENS/Semester 2/stopwatch/stopwatch.vhd" sub00/vhpl08 1560146470

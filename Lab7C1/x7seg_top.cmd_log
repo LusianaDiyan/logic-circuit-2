@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7C1/x7seg_top.xst" -ofn "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7C1/x7seg_top.syr" 

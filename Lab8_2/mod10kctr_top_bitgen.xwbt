@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Wafiq\Documents\xilink\countermod10k\mod10kctr_top.ncd
+OUTFILE=C:\Users\Wafiq\Documents\xilink\countermod10k\mod10kctr_top.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=C:\Users\Wafiq\Documents\xilink\countermod10k
+LICENSE=WebPack
+USER_INFO=211653567_0_0_918

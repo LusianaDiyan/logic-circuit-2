@@ -1,0 +1,17 @@
+NET button LOC = M13;
+NET CLK LOC = T9;
+NET RST LOC = M14;
+
+NET anode[0] LOC = D14;
+NET anode[1] LOC = G14;
+NET anode[2] LOC = F14;
+NET anode[3] LOC = E13;
+
+NET cathode[7] LOC = E14;
+NET cathode[6] LOC = G13;
+NET cathode[5] LOC = N15;
+NET cathode[4] LOC = P15;
+NET cathode[3] LOC = R16;
+NET cathode[2] LOC = F13;
+NET cathode[1] LOC = N16;
+NET cathode[0] LOC = P16;

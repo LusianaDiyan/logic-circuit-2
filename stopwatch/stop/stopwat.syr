@@ -1,0 +1,557 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> Reading design: stopwat.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "stopwat.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "stopwat"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : stopwat
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" in Library work.
+Architecture behavioral of Entity clockdiv48and190 is up to date.
+Compiling vhdl file "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd" in Library work.
+Entity <display> compiled.
+Entity <display> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd" in Library work.
+Architecture behavioral of Entity stopwat is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <stopwat> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clockdiv48and190> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <display> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <stopwat> in library <work> (Architecture <behavioral>).
+Entity <stopwat> analyzed. Unit <stopwat> generated.
+
+Analyzing Entity <clockdiv48and190> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <q>
+Entity <clockdiv48and190> analyzed. Unit <clockdiv48and190> generated.
+
+Analyzing Entity <display> in library <work> (Architecture <behavioral>).
+Entity <display> analyzed. Unit <display> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clockdiv48and190>.
+    Related source file is "C:/Users/alfis syahry/Documents/stopwatch/stop/clockdiv48and190.vhd".
+    Found 24-bit up counter for signal <q>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clockdiv48and190> synthesized.
+
+
+Synthesizing Unit <display>.
+    Related source file is "C:/Users/alfis syahry/Documents/stopwatch/stop/display.vhd".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <PS> of Case statement line 80 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <PS> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <PS>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <PS> of Case statement line 80 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <PS> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <PS> of Case statement line 80 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <PS> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <PS> of Case statement line 80 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <PS> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <PS> of Case statement line 80 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <PS> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found 4x4-bit ROM for signal <anode$mux0001> created at line 132.
+    Found 16x8-bit ROM for signal <cathode$mux0003>.
+    Found 16x8-bit ROM for signal <cathode$mux0004>.
+    Found 16x8-bit ROM for signal <cathode$mux0005>.
+    Found 16x8-bit ROM for signal <cathode$mux0006>.
+    Found 4-bit register for signal <anode>.
+    Found 8-bit register for signal <cathode>.
+    Found 32-bit register for signal <a>.
+    Found 32-bit adder for signal <a$addsub0000> created at line 92.
+    Found 32-bit register for signal <b>.
+    Found 32-bit adder for signal <b$addsub0000> created at line 89.
+    Found 8-bit 4-to-1 multiplexer for signal <cathode$mux0002> created at line 143.
+    Found 2-bit up counter for signal <digit1>.
+    Found 2-bit up counter for signal <digit2>.
+    Found 1-bit register for signal <en>.
+    Found 2-bit register for signal <NS>.
+    Found 2-bit register for signal <PS>.
+    Found 1-bit register for signal <ss1>.
+    Found 1-bit register for signal <ss2>.
+    Found 32-bit register for signal <x>.
+    Found 32-bit adder for signal <x$addsub0000> created at line 86.
+    Found 32-bit register for signal <y>.
+    Found 32-bit adder for signal <y$addsub0000> created at line 84.
+    Summary:
+	inferred   5 ROM(s).
+	inferred   2 Counter(s).
+	inferred 147 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 Multiplexer(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <stopwat>.
+    Related source file is "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.vhd".
+Unit <stopwat> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 5
+ 16x8-bit ROM                                          : 4
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 4
+# Counters                                             : 3
+ 2-bit up counter                                      : 2
+ 24-bit up counter                                     : 1
+# Registers                                            : 11
+ 1-bit register                                        : 3
+ 2-bit register                                        : 2
+ 32-bit register                                       : 4
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <display>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_anode_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <display> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 5
+ 16x8-bit ROM                                          : 4
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 4
+# Counters                                             : 3
+ 2-bit up counter                                      : 2
+ 24-bit up counter                                     : 1
+# Registers                                            : 147
+ Flip-Flops                                            : 147
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2146 - In block <display>, Counter <digit1> <digit2> are equivalent, XST will keep only <digit1>.
+WARNING:Xst:2677 - Node <u0/q_20> of sequential type is unconnected in block <stopwat>.
+WARNING:Xst:2677 - Node <u0/q_21> of sequential type is unconnected in block <stopwat>.
+WARNING:Xst:2677 - Node <u0/q_22> of sequential type is unconnected in block <stopwat>.
+WARNING:Xst:2677 - Node <u0/q_23> of sequential type is unconnected in block <stopwat>.
+INFO:Xst:2261 - The FF/Latch <anode_2> in Unit <display> is equivalent to the following FF/Latch, which will be removed : <cathode_0> 
+
+Optimizing unit <stopwat> ...
+
+Optimizing unit <display> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block stopwat, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 168
+ Flip-Flops                                            : 168
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : stopwat.ngr
+Top Level Output File Name         : stopwat
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 739
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 143
+#      LUT2                        : 4
+#      LUT2_D                      : 2
+#      LUT2_L                      : 2
+#      LUT3                        : 17
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 202
+#      LUT4_D                      : 10
+#      MUXCY                       : 171
+#      MUXF5                       : 27
+#      VCC                         : 1
+#      XORCY                       : 148
+# FlipFlops/Latches                : 168
+#      FD                          : 11
+#      FDC                         : 148
+#      FDCE                        : 1
+#      FDE                         : 4
+#      FDR                         : 1
+#      FDS                         : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      210  out of   1920    10%  
+ Number of Slice Flip Flops:            168  out of   3840     4%  
+ Number of 4 input LUTs:                391  out of   3840    10%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    173     8%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+u0/q_17                            | NONE(u1/digit1_1)      | 13    |
+u0/q_191                           | BUFG                   | 133   |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RST                                | IBUF                   | 149   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.797ns (Maximum Frequency: 102.068MHz)
+   Minimum input arrival time before clock: 5.420ns
+   Maximum output required time after clock: 7.241ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.106ns (frequency: 195.848MHz)
+  Total number of paths / destination ports: 210 / 20
+-------------------------------------------------------------------------
+Delay:               5.106ns (Levels of Logic = 20)
+  Source:            u0/q_1 (FF)
+  Destination:       u0/q_19 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: u0/q_1 to u0/q_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.720   1.140  u0/q_1 (u0/q_1)
+     LUT1:I0->O            1   0.551   0.000  u0/Mcount_q_cy<1>_rt (u0/Mcount_q_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  u0/Mcount_q_cy<1> (u0/Mcount_q_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<2> (u0/Mcount_q_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<3> (u0/Mcount_q_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<4> (u0/Mcount_q_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<5> (u0/Mcount_q_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<6> (u0/Mcount_q_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<7> (u0/Mcount_q_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<8> (u0/Mcount_q_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<9> (u0/Mcount_q_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<10> (u0/Mcount_q_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<11> (u0/Mcount_q_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<12> (u0/Mcount_q_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<13> (u0/Mcount_q_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<14> (u0/Mcount_q_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<15> (u0/Mcount_q_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<16> (u0/Mcount_q_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  u0/Mcount_q_cy<17> (u0/Mcount_q_cy<17>)
+     MUXCY:CI->O           0   0.064   0.000  u0/Mcount_q_cy<18> (u0/Mcount_q_cy<18>)
+     XORCY:CI->O           1   0.904   0.000  u0/Mcount_q_xor<19> (Result<19>)
+     FDC:D                     0.203          u0/q_19
+    ----------------------------------------
+    Total                      5.106ns (3.966ns logic, 1.140ns route)
+                                       (77.7% logic, 22.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/q_17'
+  Clock period: 3.820ns (frequency: 261.780MHz)
+  Total number of paths / destination ports: 32 / 16
+-------------------------------------------------------------------------
+Delay:               3.820ns (Levels of Logic = 1)
+  Source:            u1/digit1_0 (FF)
+  Destination:       u1/anode_2 (FF)
+  Source Clock:      u0/q_17 rising
+  Destination Clock: u0/q_17 rising
+
+  Data Path: u1/digit1_0 to u1/anode_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             20   0.720   1.545  u1/digit1_0 (u1/digit1_0)
+     INV:I->O              1   0.551   0.801  u1/Mrom_anode_mux0001211_INV_0 (u1/Mrom_anode_mux000121)
+     FDS:D                     0.203          u1/anode_2
+    ----------------------------------------
+    Total                      3.820ns (1.474ns logic, 2.346ns route)
+                                       (38.6% logic, 61.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/q_191'
+  Clock period: 9.797ns (frequency: 102.068MHz)
+  Total number of paths / destination ports: 18886 / 133
+-------------------------------------------------------------------------
+Delay:               9.797ns (Levels of Logic = 11)
+  Source:            u1/y_22 (FF)
+  Destination:       u1/x_31 (FF)
+  Source Clock:      u0/q_191 rising
+  Destination Clock: u0/q_191 rising
+
+  Data Path: u1/y_22 to u1/x_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.720   1.246  u1/y_22 (u1/y_22)
+     LUT4:I0->O            1   0.551   0.000  u1/a_cmp_eq00001_wg_lut<0> (u1/a_cmp_eq00001_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  u1/a_cmp_eq00001_wg_cy<0> (u1/a_cmp_eq00001_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  u1/a_cmp_eq00001_wg_cy<1> (u1/a_cmp_eq00001_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  u1/a_cmp_eq00001_wg_cy<2> (u1/a_cmp_eq00001_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  u1/a_cmp_eq00001_wg_cy<3> (u1/a_cmp_eq00001_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  u1/a_cmp_eq00001_wg_cy<4> (u1/a_cmp_eq00001_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  u1/a_cmp_eq00001_wg_cy<5> (u1/a_cmp_eq00001_wg_cy<5>)
+     MUXCY:CI->O          18   0.303   1.443  u1/a_cmp_eq00001_wg_cy<6> (u1/a_cmp_eq00001_wg_cy<6>)
+     LUT4_D:I3->O          4   0.551   0.985  u1/a_cmp_eq0000 (u1/a_cmp_eq0000)
+     LUT4_D:I2->O         31   0.551   1.873  u1/x_mux0001<0>21 (u1/N16)
+     LUT4:I3->O            1   0.551   0.000  u1/x_mux0001<8>1 (u1/x_mux0001<8>)
+     FDC:D                     0.203          u1/x_23
+    ----------------------------------------
+    Total                      9.797ns (4.250ns logic, 5.547ns route)
+                                       (43.4% logic, 56.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/q_191'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.420ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       u1/ss2 (FF)
+  Destination Clock: u0/q_191 rising
+
+  Data Path: RST to u1/ss2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           150   0.821   2.529  RST_IBUF (RST_IBUF)
+     INV:I->O              4   0.551   0.917  u1/RST_inv1_INV_0 (u1/RST_inv)
+     FDE:CE                    0.602          u1/ss1
+    ----------------------------------------
+    Total                      5.420ns (1.974ns logic, 3.446ns route)
+                                       (36.4% logic, 63.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/q_17'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              7.241ns (Levels of Logic = 1)
+  Source:            u1/anode_2 (FF)
+  Destination:       anode<2> (PAD)
+  Source Clock:      u0/q_17 rising
+
+  Data Path: u1/anode_2 to anode<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              2   0.720   0.877  u1/anode_2 (u1/anode_2)
+     OBUF:I->O                 5.644          anode_2_OBUF (anode<2>)
+    ----------------------------------------
+    Total                      7.241ns (6.364ns logic, 0.877ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.79 secs
+ 
+--> 
+
+Total memory usage is 4534828 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

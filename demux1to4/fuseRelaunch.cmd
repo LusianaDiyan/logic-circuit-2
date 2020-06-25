@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux_tb_isim_beh.exe" -prj "D:/Semester 2/Prak. Rangkaian Logika 2/demux1to4/demux_tb_beh.prj" "work.demux_tb" 

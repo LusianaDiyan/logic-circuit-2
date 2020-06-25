@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml prio_encoder.twx prio_encoder.ncd -o prio_encoder.twr
+prio_encoder.pcf
+
+Design file:              prio_encoder.ncd
+Physical constraint file: prio_encoder.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+r<1>           |pcode<0>       |    5.635|
+r<1>           |pcode<1>       |    5.482|
+r<2>           |pcode<0>       |    5.471|
+r<2>           |pcode<1>       |    5.306|
+r<3>           |pcode<0>       |    5.232|
+r<3>           |pcode<1>       |    5.075|
+r<4>           |pcode<0>       |    5.588|
+r<4>           |pcode<1>       |    5.425|
+r<4>           |pcode<2>       |    4.492|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Mar 08 14:18:36 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4999 MB
+
+
+

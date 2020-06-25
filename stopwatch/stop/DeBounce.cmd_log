@@ -1,0 +1,2 @@
+vhdtdtfi -prj stop -o E:/demo/pro/stopwatch/stop/DeBounce.vhi -module DeBounce -template D:/xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bounce.vhd 
+vhdtdtfi -prj stop -o E:/demo/pro/stopwatch/stop/DeBounce.vhi -module DeBounce -template D:/xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bounce.vhd 

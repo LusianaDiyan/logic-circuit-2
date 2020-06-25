@@ -1,0 +1,5 @@
+set -tmpdir "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/xst/projnav.tmp"
+set -xsthdpdir "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7A/xst"
+elaborate
+-ifn hex7segb.prj
+-ifmt mixed

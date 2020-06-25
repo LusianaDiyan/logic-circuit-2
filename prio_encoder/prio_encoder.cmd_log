@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/Semester 2/Prak. Rangkaian Logika 2/prio_encoder/prio_encoder.xst" -ofn "D:/Semester 2/Prak. Rangkaian Logika 2/prio_encoder/prio_encoder.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim prio_encoder.ngc prio_encoder_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "prio_encoder.ngc" prio_encoder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o prio_encoder_map.ncd prio_encoder.ngd prio_encoder.pcf 
+par -w -intstyle ise -ol high -mt off prio_encoder_map.ncd prio_encoder.ncd prio_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml prio_encoder.twx prio_encoder.ncd -o prio_encoder.twr prio_encoder.pcf 
+bitgen -intstyle ise -f prio_encoder.ut prio_encoder.ncd 

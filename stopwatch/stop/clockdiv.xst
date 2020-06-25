@@ -1,0 +1,5 @@
+set -tmpdir "D:/stopwatch/stop/xst/projnav.tmp"
+set -xsthdpdir "D:/stopwatch/stop/xst"
+elaborate
+-ifn clockdiv.prj
+-ifmt mixed

@@ -1,0 +1,3 @@
+vhdl work "display.vhd"
+vhdl work "clockdiv48and190.vhd"
+vhdl work "stopwat.vhd"

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7C2/x7segb.xst" -ofn "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab7C2/x7segb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "x7segb.ngc" x7segb.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o x7segb_map.ncd x7segb.ngd x7segb.pcf 
+par -w -intstyle ise -ol high -t 1 x7segb_map.ncd x7segb.ncd x7segb.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml x7segb.twx x7segb.ncd -o x7segb.twr x7segb.pcf 

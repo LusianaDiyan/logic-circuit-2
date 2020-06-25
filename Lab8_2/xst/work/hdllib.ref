@@ -1,0 +1,14 @@
+AR binbcd14 behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/binbcd14.vhd" sub00/vhpl10 1558061160
+EN mod10kcnt_top NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kctr_top.vhd" sub00/vhpl12 1558061163
+AR mod10kcnt behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kcnt.vhd" sub00/vhpl04 1558061158
+AR clkdiv behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/clkdiv.vhd" sub00/vhpl08 1558061156
+AR mod10kcnt_top behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kctr_top.vhd" sub00/vhpl13 1558061164
+AR clockdev behavioral C:/Users/Wafiq/Documents/xilink/countermod10k/clockdiv.vhd sub00/vhpl01 1558018605
+EN mod10kcnt NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/mod10kcnt.vhd" sub00/vhpl03 1558061157
+EN clkdiv NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/clkdiv.vhd" sub00/vhpl07 1558061155
+EN clockdev NULL C:/Users/Wafiq/Documents/xilink/countermod10k/clockdiv.vhd sub00/vhpl00 1558018604
+EN binbcd14 NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/binbcd14.vhd" sub00/vhpl09 1558061159
+AR x7segbc behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/x7segbc.vhd" sub00/vhpl05 1558061162
+AR mod10kctr_top behavioral C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kctr_top.vhd sub00/vhpl11 1558024013
+EN mod10kctr_top NULL C:/Users/Wafiq/Documents/xilink/countermod10k/mod10kctr_top.vhd sub00/vhpl06 1558024012
+EN x7segbc NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/Lab8_2/x7segbc.vhd" sub00/vhpl02 1558061161

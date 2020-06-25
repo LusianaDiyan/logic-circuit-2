@@ -1,0 +1,180 @@
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/Tugas/Kuliah/Logika/stop/stopwat.xst" -ofn "E:/Tugas/Kuliah/Logika/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.xst" -ofn "E:/TUGAS/ISE Project/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "D:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "D:/demo/pro/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "D:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "D:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "E:/demo/pro/stopwatch/stop/stopwat.xst" -ofn "E:/demo/pro/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 stopwat.ngc stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 
+xst -intstyle ise -ifn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.xst" -ofn "C:/Users/alfis syahry/Documents/stopwatch/stop/stopwat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwat.ucf -p xc3s200-ft256-4 "stopwat.ngc" stopwat.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o stopwat_map.ncd stopwat.ngd stopwat.pcf 
+par -w -intstyle ise -ol high -t 1 stopwat_map.ncd stopwat.ncd stopwat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwat.twx stopwat.ncd -o stopwat.twr stopwat.pcf -ucf stopwat.ucf 
+bitgen -intstyle ise -f stopwat.ut stopwat.ncd 

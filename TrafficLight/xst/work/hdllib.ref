@@ -1,0 +1,8 @@
+AR clockdevider behavioral "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/ClockDevider.vhd" sub00/vhpl02 1560135823
+AR sevensegment behavioral E:/2210171003/TrafficLight/SevenSegment.vhd sub00/vhpl04 1528366184
+AR topmodule behavioral E:/2210171003/TrafficLight/TopModule.vhd sub00/vhpl07 1528366186
+EN lightcontrol NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/LightControl.vhd" sub00/vhpl00 1560135824
+EN sevensegment NULL E:/2210171003/TrafficLight/SevenSegment.vhd sub00/vhpl03 1528366183
+AR lightcontrol behavioral E:/2210171003/TrafficLight/LightControl.vhd sub00/vhpl05 1528366182
+EN topmodule NULL E:/2210171003/TrafficLight/TopModule.vhd sub00/vhpl06 1528366185
+EN clockdevider NULL "D:/PENS/Semester 2/Prak. Rangkaian Logika 2/TrafficLight/ClockDevider.vhd" sub00/vhpl01 1560135822
